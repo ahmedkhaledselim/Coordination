@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		B03CD47A23C7A9DA0025A79D /* Coordination.h in Headers */ = {isa = PBXBuildFile; fileRef = B03CD47823C7A9DA0025A79D /* Coordination.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B03CD48423C7AAD90025A79D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03CD48023C7AAD80025A79D /* Router.swift */; };
+		B03CD48523C7AAD90025A79D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03CD48123C7AAD80025A79D /* Coordinator.swift */; };
+		B03CD48623C7AAD90025A79D /* RouterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03CD48223C7AAD80025A79D /* RouterType.swift */; };
+		B03CD48723C7AAD90025A79D /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03CD48323C7AAD90025A79D /* Presentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B03CD47523C7A9DA0025A79D /* Coordination.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Coordination.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03CD47823C7A9DA0025A79D /* Coordination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coordination.h; sourceTree = "<group>"; };
 		B03CD47923C7A9DA0025A79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B03CD48023C7AAD80025A79D /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B03CD48123C7AAD80025A79D /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B03CD48223C7AAD80025A79D /* RouterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterType.swift; sourceTree = "<group>"; };
+		B03CD48323C7AAD90025A79D /* Presentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,10 @@
 		B03CD47723C7A9DA0025A79D /* Coordination */ = {
 			isa = PBXGroup;
 			children = (
+				B03CD48123C7AAD80025A79D /* Coordinator.swift */,
+				B03CD48323C7AAD90025A79D /* Presentable.swift */,
+				B03CD48023C7AAD80025A79D /* Router.swift */,
+				B03CD48223C7AAD80025A79D /* RouterType.swift */,
 				B03CD47823C7A9DA0025A79D /* Coordination.h */,
 				B03CD47923C7A9DA0025A79D /* Info.plist */,
 			);
@@ -95,6 +107,7 @@
 				TargetAttributes = {
 					B03CD47423C7A9DA0025A79D = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -131,6 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03CD48523C7AAD90025A79D /* Coordinator.swift in Sources */,
+				B03CD48723C7AAD90025A79D /* Presentable.swift in Sources */,
+				B03CD48423C7AAD90025A79D /* Router.swift in Sources */,
+				B03CD48623C7AAD90025A79D /* RouterType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +277,7 @@
 		B03CD47E23C7A9DA0025A79D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5M7A8FW895;
@@ -276,6 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedkhaled.Coordination;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +303,7 @@
 		B03CD47F23C7A9DA0025A79D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5M7A8FW895;
