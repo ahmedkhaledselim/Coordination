@@ -1,0 +1,16 @@
+PODS:
+  - Coordination (0.1.0)
+
+DEPENDENCIES:
+  - Coordination (from `../`)
+
+EXTERNAL SOURCES:
+  Coordination:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Coordination: 19c0abb37e453a22ac70ef8d83525ddd275680dd
+
+PODFILE CHECKSUM: b4751b1e33a7e2cf4434faf685edbd4bf854a95d
+
+COCOAPODS: 1.8.4
