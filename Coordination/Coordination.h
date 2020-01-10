@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Coordination/Coordination.h>
 
 //! Project version number for Coordination.
 FOUNDATION_EXPORT double CoordinationVersionNumber;

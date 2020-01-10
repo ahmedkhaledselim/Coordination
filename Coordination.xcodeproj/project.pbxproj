@@ -11,7 +11,6 @@
 		B0245D4423C7FD5C00D75382 /* StoryboardName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0245D0223C7FD5C00D75382 /* StoryboardName.swift */; };
 		B0245D4523C7FD5C00D75382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0245D0423C7FD5C00D75382 /* Assets.xcassets */; };
 		B0245D4623C7FD5C00D75382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0245D0523C7FD5C00D75382 /* LaunchScreen.storyboard */; };
-		B0245D4723C7FD5C00D75382 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0245D0723C7FD5C00D75382 /* Info.plist */; };
 		B0245D4823C7FD5C00D75382 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0245D0923C7FD5C00D75382 /* Storyboarded.swift */; };
 		B0245D4923C7FD5C00D75382 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0245D0B23C7FD5C00D75382 /* ApplicationCoordinator.swift */; };
 		B0245D4A23C7FD5C00D75382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0245D0C23C7FD5C00D75382 /* AppDelegate.swift */; };
@@ -478,7 +477,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0245D5E23C7FD5C00D75382 /* Pods-Example-frameworks.sh in Resources */,
-				B0245D4723C7FD5C00D75382 /* Info.plist in Resources */,
 				B0245D5823C7FD5C00D75382 /* Pods-Example-frameworks-Debug-output-files.xcfilelist in Resources */,
 				B0245D4C23C7FD5C00D75382 /* Home.storyboard in Resources */,
 				B0245D5123C7FD5C00D75382 /* Coordination.xcconfig in Resources */,
