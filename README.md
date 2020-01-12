@@ -1,6 +1,12 @@
 # Coordination
 Coordination is a swift framework that utilizes Coordinator pattern to separate navigation code from UI and business logic.
-
+<!--[![CI Status](https://img.shields.io/travis/ahmedkhaledselim/Coordination.svg?style=flat)](https://travis-ci.org/ahmedkhaledselim/Coordination)-->
+[![Version](https://img.shields.io/cocoapods/v/Coordination.svg?style=flat)](https://cocoapods.org/pods/Coordination)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![Platform](https://img.shields.io/cocoapods/p/Coordination.svg?style=flat)](https://developer.apple.com/resources/)
+[![Swift Version](https://img.shields.io/badge/swift-5-orange.svg?style=flat)](https://swift.org/blog/swift-4-1-released/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ahmedkhaledselim_Coordination&metric=alert_status)](https://sonarcloud.io/dashboard?id=ahmedkhaledselim_Coordination)
 ## Installation
 
 Coordination is available through [CocoaPods](https://cocoapods.org). To install
