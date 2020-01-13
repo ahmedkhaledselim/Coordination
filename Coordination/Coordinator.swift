@@ -31,5 +31,7 @@ extension Coordinator {
     return router.toPresentable()
   }
   
-  public func start() {}
+  public func start() {
+    //empty function implementation to make it optional
+    }
 }
