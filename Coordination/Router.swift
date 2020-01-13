@@ -28,7 +28,7 @@ final public class Router: NSObject, RouterType {
     let controller = module.toPresentable()
     
     // Avoid pushing UINavigationController onto stack
-    guard controller is UINavigationController == false else {
+    guard !(controller is UINavigationController) else {
       return
     }
     if let onPop = onPop {
@@ -52,7 +52,7 @@ final public class Router: NSObject, RouterType {
     let controller = module.toPresentable()
     
     // Avoid pushing UINavigationController onto stack
-    guard controller is UINavigationController == false else {
+    guard !(controller is UINavigationController) else {
       return
     }
     // Call all completions so all coordinators can be deallocated

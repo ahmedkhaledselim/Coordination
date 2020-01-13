@@ -16,7 +16,8 @@ class HomeViewController: UIViewController {
     super.viewDidLoad()
     title = "Home"
   }
-  @IBAction func loginButton_TouchUpInside(_ sender: UIButton) {
+  
+  @IBAction func logoutButtonTouchUpInside(_ sender: UIButton) {
     coordinator?.parentCoordinator?.runAuthenticationFlow()
   }
 }
